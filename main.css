@@ -1,13 +1,70 @@
 /* This is CSS */
 
+/* .button {
+	color: #d35289;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid #d35289;
+	display: inline-block;
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.button:hover {
+  color: #000000;
+  border-color: #000000;
+} */
+
+img {
+	width: 800px;
+	height: 800px;
+	position: fixed;
+	top: 15%;
+	left: 30%;
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 195px;
+
+}
+
+li a {
+    display: block;
+    color: #753f56;
+		margin: 25px;
+    padding: 8px 0 8px 16px;
+		border: 3px solid #d35289;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: white;
+}
+
+
 
 
 /* CLOUD ANIMATION */
 
 body {
-	background: #00b4ff;
-	color: #333;
-	font: 100% Arial, Sans Serif;
+	background-image: url("Images/mountain image.png");
+  background-color: #ffb9d0;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+	font: 100% Arial-Black;
 	height: 100vh;
 	margin: 0;
 	padding: 0;
